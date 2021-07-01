@@ -2,26 +2,86 @@
 	clear: both;
 }
 
+
+#mainArea {
+	border-top: #cf8a05 solid 2px;
+	font-size: 20px;
+		
+	
+}
+
+#cv {
+	
+	width: 50vw;
+	margin-right: 50%;
+	margin-left: 50%;
+}
+
+body {
+
+	font-family: Arial, Helvetica, sans-serif;
+	display: inline-block;
+}
+
 #headshot {
 	width: 12.5%;
 	float: left;
-	margin-right: 30px;
+	margin-right: 50px;
+	
+}
+
+#headshot img {
+	border-radius: 100px;
 }
 
 #name {
 	float: left;
 }
+#name h1 {
+	margin-bottom: -2px;
+}
+
+#name h2 {
+	margin-top: -2px;
+	
+}
 
 #contactDetails {
 	float: right;
+	color: #444444;
 }
+
 
 .sectionTitle {
 	float: left;
 	width: 25%;
+	color: #cf8a05;
+	font-style: italic;
 }
 
 .sectionContent {
 	float: right;
 	width: 72.5%;
+	color: #444444;
+}
+
+
+
+article h2 {	
+	margin-bottom: -15px;
+	color: #181818;
+		
+}
+
+section{
+	border-top: #dedede solid 1px;
+}
+
+.keySkills {
+	column-count: 3;
+}
+.subDetails {
+	margin-bottom: -15px;
+	font-style: italic;
+	font-size: 15px;
 }
